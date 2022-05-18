@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Bulb</title>
+<link rel="stylesheet" type="text/css" href="bulb.css">
+<h1 style="font-size: 40px;
+color:black;
+text-align: center">
+<b>** BULB CONTROLLING **</b></h1>
+<br>
+</head>
+<body style="text-align: center">
+<script>
+  function light(value)   {   
+             var pic;        
+          if(value==0) 
+            { 
+                pic="bulboff.jpeg"; 
+            }            
+else{                 
+   pic="on.jpg"; 
+} 
+ document.getElementById("bulb").src=pic; 
+        } 
+
+</script>
+<img id="bulb" src="bulboff.jpeg"class="center">
+<br>
+<button onclick="light(1)"><b>[TURN ON]</b></button>
+<button onclick="light(0)"><b>[TURN OFF]</b></button>
+</body>
+</html>

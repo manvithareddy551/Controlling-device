@@ -1,0 +1,39 @@
+.home-header{  
+position:fixed;  
+ left:8px;   	
+right:0px; 
+  height:80px;  
+ width:100%; 
+   padding:10px 20px;  
+  border-radius:8px;
+ font-weight:900;   
+ margin-right: 50px;  
+  cursor:pointer;   
+ box-shadow:5px 5px 13px #b6b7b7,-5px -5px 13px #e8e9e9;   boxshadow :inset 5px 5px 13px #b6b7b7,-5px -5px 13px #09090f;    position: absolute; 
+ background: lightblue; 
+   } 
+.home{ 
+	width:100%;  
+margin:auto;   
+  justify-content: space-between; }
+.homee{ 
+        width:1500px; 
+        height:800px;  
+         cursor:pointer; 
+} 
+.text{ 
+display: block; 
+ font-family:”helviticaneue”;    font-size: 30px ;   
+text-align:  center; 
+  font-weight: bold;  
+ color: black; 
+} 
+.home-nav{   float:left;   	 height: 100%; 
+} 
+.home-nav a{ color:black;
+  font-size: 20px; 
+  font-weight: 700; 
+  font-family: "helveticaneue";  
+padding-left:20px;
+  display:inline-block; 
+}
